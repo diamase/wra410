@@ -1,11 +1,11 @@
 body {
-    background-color: #EEE;
+    background: #7fffd4;
     font-family: 'Sarabun',Helvetica, Arial, sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #B23333;
+  color: #9c9c9c;
 }
 
 h1, h2, h3  {

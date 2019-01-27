@@ -11,6 +11,9 @@ Revise the following section in your README.md file with a short description of 
 ## Required Changes to WRA 410
 
 1. Make changes to the background color of a page and a div.
+ I have changed the background color of the policies page and the divs on the schedule page to green and
+ white to commemorate MSU colors. I also changed the color of the text links to a darker grey to go with
+ my new color scheme I have going on. 
 
 2. Use a new font.
 
@@ -18,16 +21,16 @@ Revise the following section in your README.md file with a short description of 
 
 4. Use a table to format the Grading Scale on the Assignments page.
 
-5. Reformat the Student Groups. Use a different color for links, add a title for each group, seperate each student. Use multiple columns for the divs.  
+5. Reformat the Student Groups. Use a different color for links, add a title for each group, separate each student. Use multiple columns for the divs.  
 
-6. Add navgation to the Schedule webpage.
+6. Add navigation to the Schedule webpage.
 
 7. Revise the rows and columns on the Schedule webpage so the information is clearer or prettier.
 
 
 ## Grading Criteria
 
-* 100-90 points: You accomplish all of the required changes and you include some new html/css commands and/or your design does an especially good job of meeting the needs of your audience (students in this course). 
+* 100-90 points: You accomplish all of the required changes and you include some new html/css commands and/or your design does an especially good job of meeting the needs of your audience (students in this course).
 
 * 89-80 points: You accomplish all of the required changes.
 
