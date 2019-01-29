@@ -1,6 +1,18 @@
 body {
-    background: #7fffd4;
+    background: #18453B;
     font-family: 'Sarabun',Helvetica, Arial, sans-serif;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 7s 1;
+}
+
+@-webkit-keyframes mymove {
+  from {background-color: white;}
+  to {background-color: #18453B;}
+}
+
+@keyframes mymove {
+  from {background-color: white;}
+  to {background-color: #18453B;}
 }
 
 a {
@@ -11,6 +23,28 @@ a {
 h1, h2, h3  {
   margin: 0;
   padding: 10px;
+}
+
+h1 {
+  font-family: 'Papyrus', Arial, sans-serif;
+  text-shadow: 2px 3px white;
+}
+
+table {
+  width: 400px;
+}
+
+table, td, th {
+  border: 1px solid #000;
+  font-size: 20px;
+  border-collapse: collapse;
+}
+
+.columns {
+  display:grid;
+  grid-template-columns: 20% 24% 23%;
+  padding: 1em;
+  column-gap: normal;
 }
 
 #container {
@@ -25,6 +59,10 @@ h1, h2, h3  {
     color: white;
     text-align: center;
     padding: 10px;
+    background-image: url(msu.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+    border: 1px solid white;
 }
 
 #content {
@@ -47,20 +85,55 @@ h1, h2, h3  {
   font-weight: bold;
 }
 
+#newnav {
+  width: 150px;
+  float: left;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#newnav ul {
+  list-style-type: none;
+  padding: 0;
+  }
+
+  #newnav .selected {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+  }
+
+#main h2 {
+  background-image: url(msupic.png);
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: right;
+  border: 4px solid white;
+}
+
 #main {
   width: 750px;
   float: right;
-
 }
 
 #student-group {
   clear: both;
   margin: 20px;
-  border: 20px;
+  border: 30px;
   padding: 10px;
-  background-color:  #d3d3d3;
+  background-color:  #18453B;
   color: black;
   text-align: left;
+}
+
+.student-group-name {
+  color: #acacff;
+  text-decoration: underline;
+}
+
+#student-group a {
+  color: white;
+
 }
 
 #footer {
@@ -74,9 +147,16 @@ h1, h2, h3  {
   font-weight: bold;
   color: black;
   text-align: right;
+  border: 1px solid #000;
 }
 .schedule-resources {
   font-weight: lighter;
   color: black;
   text-align: left;
+  border: 1px solid #000;
+}
+
+#classinfo {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
 }
