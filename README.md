@@ -26,6 +26,7 @@ Revise the following section in your README.md file with a short description of 
  text on each page.
 
 4. Use a table to format the Grading Scale on the Assignments page.
+
  ~I made a table using https://www.youtube.com/watch?v=dK27jWKtJxs. It was very helpful and I customized to my liking.
 
 5. Reformat the Student Groups. Use a different color for links, add a title for each group, separate each student. Use multiple columns for the divs.  
