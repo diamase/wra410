@@ -80,9 +80,15 @@ table, td, th {
   padding: 0;
 }
 
+#nav a:hover {
+  border-radius:2px;
+	border:2px solid black;
+}
 
 #nav .selected {
   font-weight: bold;
+  font-size: 25px;
+  color: grey;
 }
 
 #newnav {
@@ -97,11 +103,16 @@ table, td, th {
   padding: 0;
   }
 
-  #newnav .selected {
+#newnav .selected {
     font-weight: bold;
     font-size: 25px;
-    color: white;
+    color: grey;
   }
+
+#newnav a:hover {
+    border-radius:2px;
+	  border:2px solid black;
+}
 
 #main h2 {
   background-image: url(msupic.png);

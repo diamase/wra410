@@ -36,7 +36,7 @@ Revise the following section in your README.md file with a short description of 
 
 6. Add navigation to the Schedule webpage.
 
- ~I added a side navigation to the left on the schedule page.
+ ~I added a side navigation to the left on the schedule page and updated navigation throughout site.
 
 7. Revise the rows and columns on the Schedule webpage so the information is clearer or prettier.
 
