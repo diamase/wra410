@@ -1,6 +1,6 @@
 body {
     background: #18453B;
-    font-family: 'Sarabun',Helvetica, Arial, sans-serif;
+    font-family: 'Lato',Helvetica, Arial, sans-serif;
     -webkit-animation: mymove 5s infinite;
     animation: mymove 7s 1;
 }
@@ -89,7 +89,7 @@ table, td, th {
   width: 150px;
   float: left;
   padding: 20px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #newnav ul {
